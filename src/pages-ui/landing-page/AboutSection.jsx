@@ -7,7 +7,7 @@ const AboutSection = () => {
     <div className="flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-[120px] ">
       <div className="container mx-auto h-full">
         <div className="hero-content h-full grid grid-cols-1 md:grid-cols-2 items-center gap-8">
-          {/* Left Image */}
+          {/* Left Image box */}
           <div className=" mb-8 md:mb-0 order-[2] md:order-[-1]">
             <Image
               src={AboutImg1}
@@ -18,7 +18,7 @@ const AboutSection = () => {
             />
           </div>
 
-          {/* Right Content */}
+          {/* Right Content box */}
           <div className=" text-center md:text-left">
             <p className="text-blue-600 font-medium mb-2">About Us</p>
             <h2 className="text-2xl md:text-3xl font-bold text-[#234A6B] mb-4">
